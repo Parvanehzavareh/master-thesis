@@ -8,7 +8,7 @@ from pandasgui import show
 import matplotlib.dates as mdates
 
 # Define houses and file names
-root_folder = r"C:\moein's folder\transfer\data"
+root_folder = r"C:\master\data"
 houses = ["house_1", "house_2", "house_3", "house_4", "house_5"]
 data_types = ["resampled_data", "normalized_data", "activation_data"]
 columns = ["aggregate", "kettle", "fridge_freezer", "dishwasher", "microwave", "washer_dryer"]
