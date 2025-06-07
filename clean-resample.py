@@ -327,16 +327,4 @@ df_1_activation.to_csv(r"C:\master\data\house_1\activation_data.csv")
 #show(df_1_anomalies_2)
 
 
-"""
-Thirdly, for each type of appliance and the aggregate,
-we normalised the data by subtracting the mean values and dividing by the corresponding standard
-deviations.
-
-
-For the UK-DALE dataset, we use houses 1
-and 5 for training, and house 2 for testing. Disaggregation
-results for fridge, dishwasher, microwave, washing machine,
-and kettle are reported.
-
-"""
 
