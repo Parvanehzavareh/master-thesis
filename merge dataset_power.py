@@ -41,7 +41,7 @@ def merge_appliance_data(folder_path, file_names):
 
 #%% house 1
 # Provide the path to your CSV file
-folder_path = r"C:\Moein\TRANSFER\data\house_1"
+folder_path = r"C:\master\data\house_1"
 file_names = [
     "channel_1.dat", "channel_5.dat", "channel_6.dat",
     "channel_10.dat", "channel_12.dat", "channel_13.dat",
@@ -58,7 +58,7 @@ merged_df_house1.to_csv(output_file, index=False)
 
 #%% house 2
 # Provide the path to your CSV file
-folder_path = r"C:\Moein\TRANSFER\data\house_2"
+folder_path = r"C:\master\data\house_2"
 file_names = [
     "channel_1.dat", "channel_2.dat", "channel_3.dat",
     "channel_4.dat", "channel_5.dat", "channel_6.dat",
@@ -80,7 +80,7 @@ merged_df_house2.to_csv(output_file, index=False)
 
 #%% house 3
 # Provide the path to your CSV file
-folder_path = r"C:\Moein\TRANSFER\data\house3"
+folder_path = r"C:\master\data\house3"
 file_names = [
     "channel_1.dat", "channel_2.dat", "channel_3.dat",
     "channel_4.dat", "channel_5.dat"
@@ -97,7 +97,7 @@ merged_df_house3.to_csv(output_file, index=False)
 
 #%% house 4
 # Provide the path to your CSV file
-folder_path = r"C:\Moein\TRANSFER\data\house_4"
+folder_path = r"C:\master\data\house_4"
 file_names = [
     "channel_1.dat", "channel_2.dat", "channel_3.dat",
     "channel_4.dat", "channel_5.dat", "channel_6.dat"
@@ -114,7 +114,7 @@ merged_df_house4.to_csv(output_file, index=False)
 
 #%% house 5
 # Provide the path to your CSV file
-folder_path = r"C:\Moein\TRANSFER\data\house_5"
+folder_path = r"C:\master\data\house_5"
 file_names = [
     "channel_1.dat", "channel_2.dat", "channel_3.dat",
     "channel_4.dat", "channel_5.dat", "channel_6.dat",
