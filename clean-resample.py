@@ -207,7 +207,7 @@ resample_time = "60S"
 
 
 #%% house 5
-file_path = r"C:\moein's folder\transfer\data\house_5\merged_appliances.csv"
+file_path = r"C:\master\data\house_5\merged_appliances.csv"
 dict_5 = {"time" : "time",
           "channel_1_power" : "aggregate",
           "channel_18_power" : "kettle",
@@ -219,11 +219,11 @@ df_5 = clean_resample(file_path, dict_5, resample_time=resample_time)
 print(df_5.isnull().sum().sum())
 df_5_anomalies = get_anomalies(df_5)
 df_5_anomalies_2 = get_anomalies_2(df_5)
-df_5.to_csv(r"C:\moein's folder\transfer\data\house_5\resampled_data.csv")
+df_5.to_csv(r"C:\master\data\house_5\resampled_data.csv")
 df_5_normalized = normalize(df_5)
-df_5_normalized.to_csv(r"C:\moein's folder\transfer\data\house_5\normalized_data.csv")
+df_5_normalized.to_csv(r"C:\master\data\house_5\normalized_data.csv")
 df_5_activation = get_activation(df_5)
-df_5_activation.to_csv(r"C:\moein's folder\transfer\data\house_5\activation_data.csv")
+df_5_activation.to_csv(r"C:\master\data\house_5\activation_data.csv")
 
 #show(df_5.head(500))
 #show(df_5_normalized.head(500))
@@ -233,7 +233,7 @@ df_5_activation.to_csv(r"C:\moein's folder\transfer\data\house_5\activation_data
 
 
 #%% house 4
-file_path = r"C:\moein's folder\transfer\data\house_4\merged_appliances.csv"
+file_path = r"C:\master\data\house_4\merged_appliances.csv"
 dict_4 = {"time" : "time",
           "channel_1_power" : "aggregate",
           "channel_3_power" : "kettle",
@@ -242,11 +242,11 @@ df_4 = clean_resample(file_path, dict_4, resample_time=resample_time)
 print(df_4.isnull().sum().sum())
 df_4_anomalies = get_anomalies(df_4)
 df_4_anomalies_2 = get_anomalies_2(df_4)
-df_4.to_csv(r"C:\moein's folder\transfer\data\house_4\resampled_data.csv")
+df_4.to_csv(r"C:\master\data\house_4\resampled_data.csv")
 df_4_normalized = normalize(df_4)
-df_4_normalized.to_csv(r"C:\moein's folder\transfer\data\house_4\normalized_data.csv")
+df_4_normalized.to_csv(r"C:\master\data\house_4\normalized_data.csv")
 df_4_activation = get_activation(df_4)
-df_4_activation.to_csv(r"C:\moein's folder\transfer\data\house_4\activation_data.csv")
+df_4_activation.to_csv(r"C:\master\data\house_4\activation_data.csv")
 
 #show(df_4.head(500))
 #show(df_4_normalized.head(500))
@@ -256,7 +256,7 @@ df_4_activation.to_csv(r"C:\moein's folder\transfer\data\house_4\activation_data
 
 
 #%% house 3
-file_path = r"C:\moein's folder\transfer\data\house_3\merged_appliances.csv"
+file_path = r"C:\master\data\house_3\merged_appliances.csv"
 dict_3 = {"time" : "time",
           "channel_1_power" : "aggregate",
           "channel_2_power" : "kettle", }
@@ -264,11 +264,11 @@ df_3 = clean_resample(file_path, dict_3, resample_time=resample_time)
 print(df_3.isnull().sum().sum())
 df_3_anomalies = get_anomalies(df_3)
 df_3_anomalies_2 = get_anomalies_2(df_3)
-df_3.to_csv(r"C:\moein's folder\transfer\data\house_3\resampled_data.csv")
+df_3.to_csv(r"C:\master\data\house_3\resampled_data.csv")
 df_3_normalized = normalize(df_3)
-df_3_normalized.to_csv(r"C:\moein's folder\transfer\data\house_3\normalized_data.csv")
+df_3_normalized.to_csv(r"C:\master\data\house_3\normalized_data.csv")
 df_3_activation = get_activation(df_3)
-df_3_activation.to_csv(r"C:\moein's folder\transfer\data\house_3\activation_data.csv")
+df_3_activation.to_csv(r"C:\master\data\house_3\activation_data.csv")
 
 #show(df_3.head(500))
 #show(df_3_normalized.head(500))
@@ -277,7 +277,7 @@ df_3_activation.to_csv(r"C:\moein's folder\transfer\data\house_3\activation_data
 #show(df_3_anomalies_2)
 
 #%% house 2
-file_path = r"C:\moein's folder\transfer\data\house_2\merged_appliances.csv"
+file_path = r"C:\master\data\house_2\merged_appliances.csv"
 dict_2 = {"time" : "time",
           "channel_1_power" : "aggregate",
           "channel_8_power" : "kettle", 
@@ -289,11 +289,11 @@ df_2 = clean_resample(file_path, dict_2, resample_time=resample_time)
 print(df_2.isnull().sum().sum())
 df_2_anomalies = get_anomalies(df_2)
 df_2_anomalies_2 = get_anomalies_2(df_2)
-df_2.to_csv(r"C:\moein's folder\transfer\data\house_2\resampled_data.csv")
+df_2.to_csv(r"C:\master\data\house_2\resampled_data.csv")
 df_2_normalized = normalize(df_2)
-df_2_normalized.to_csv(r"C:\moein's folder\transfer\data\house_2\normalized_data.csv")
+df_2_normalized.to_csv(r"C:\master\data\house_2\normalized_data.csv")
 df_2_activation = get_activation(df_2)
-df_2_activation.to_csv(r"C:\moein's folder\transfer\data\house_2\activation_data.csv")
+df_2_activation.to_csv(r"C:\master\data\house_2\activation_data.csv")
 
 #show(df_2.head(500))
 #show(df_2_normalized.head(500))
@@ -302,7 +302,7 @@ df_2_activation.to_csv(r"C:\moein's folder\transfer\data\house_2\activation_data
 #show(df_2_anomalies_2)
 
 #%% house 1
-file_path = r"C:\moein's folder\transfer\data\house_1\merged_appliances.csv"
+file_path = r"C:\master\data\house_1\merged_appliances.csv"
 dict_1 = {"time" : "time",
           "channel_1_power" : "aggregate",
           "channel_10_power" : "kettle", 
@@ -314,11 +314,11 @@ df_1 = clean_resample(file_path, dict_1, resample_time=resample_time)
 print(df_1.isnull().sum().sum())
 df_1_anomalies = get_anomalies(df_1)
 df_1_anomalies_2 = get_anomalies_2(df_1)
-df_1.to_csv(r"C:\moein's folder\transfer\data\house_1\resampled_data.csv")
+df_1.to_csv(r"C:\master\data\house_1\resampled_data.csv")
 df_1_normalized = normalize(df_1)
-df_1_normalized.to_csv(r"C:\moein's folder\transfer\data\house_1\normalized_data.csv")
+df_1_normalized.to_csv(r"C:\master\data\house_1\normalized_data.csv")
 df_1_activation = get_activation(df_1)
-df_1_activation.to_csv(r"C:\moein's folder\transfer\data\house_1\activation_data.csv")
+df_1_activation.to_csv(r"C:\master\data\house_1\activation_data.csv")
 
 #show(df_1.head(500))
 #show(df_1_normalized.head(500))
