@@ -212,7 +212,7 @@ def create_mean_std(df_dict):
 current_dir = os.path.dirname(os.path.abspath(__file__))
 data_folder = os.path.join(current_dir, "..", "..", "data")
 root_folder = os.path.abspath(data_folder)
-#root_folder = r"C:\Moein\TRANSFER\data"
+#root_folder = r"C:\master\data"
 dataframes = load_data(root_folder)
 #show(dataframes["house_1_normalized_data"].head(500))
 #show(dataframes["house_1_activation_data"].head(500))
