@@ -184,9 +184,6 @@ for appliance in columns:
     #model.add(Dropout(0.3))  # Dropout to prevent overfitting
     model.add(Dense(1, activation='linear'))  
 
-    # Output Layers
-    seq2seq_output = Dense(window_size, activation='linear', name="seq2seq")  # Output full sequence (seq2seq)
-
     model.compile(optimizer='adam', loss='mse', metrics=['mae'])
     #model.summary()
 
